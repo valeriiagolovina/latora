@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-git add index.html .gitignore publish.sh
+git add index.html .gitignore CNAME publish.sh
 
 if git diff --cached --quiet; then
   echo "LATORA: no changes to publish."
