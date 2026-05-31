@@ -2057,6 +2057,32 @@
         line-height: 1.65;
       }
 
+      .premium-card b {
+        display: block;
+        margin: 0 0 8px;
+        color: var(--green-deep);
+        font-size: clamp(35px, 3.2vw, 48px);
+        font-weight: 200;
+        letter-spacing: -0.06em;
+        line-height: 0.95;
+      }
+
+      .premium-card:first-child b,
+      .premium-card:last-child b {
+        color: #eef7ef;
+      }
+
+      .premium-source {
+        position: relative;
+        z-index: 1;
+        margin: -6px 0 0;
+        color: rgba(238, 247, 239, 0.48);
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
       .premium-stats {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -4022,40 +4048,45 @@
               </span>
             </div>
 
-            <div class="premium-panel" aria-label="Launch capabilities">
+            <div class="premium-panel" aria-label="LATAM market snapshot">
               <div class="premium-cards">
                 <article class="premium-card">
-                  <strong>Strategy</strong>
-                  <p>Market route<br />Partner entry<br />Localization</p>
+                  <strong>LATAM &amp; Caribbean</strong>
+                  <b>662M</b>
+                  <p><span class="ru">жителей региона</span><span class="en">people in the region</span></p>
                 </article>
                 <article class="premium-card">
-                  <strong>Product</strong>
-                  <p>MVP development<br />Adaptation<br />Engineering</p>
+                  <strong>Regional GDP</strong>
+                  <b>$7.1T</b>
+                  <p><span class="ru">масштаб экономики региона</span><span class="en">regional economic output</span></p>
                 </article>
                 <article class="premium-card">
-                  <strong>Infrastructure</strong>
-                  <p>Payments<br />Integrations<br />Analytics</p>
+                  <strong>Brazil online</strong>
+                  <b>84%</b>
+                  <p><span class="ru">населения пользуются интернетом</span><span class="en">of the population uses the internet</span></p>
                 </article>
                 <article class="premium-card">
-                  <strong>Launch</strong>
-                  <p>Pilot launch<br />Market testing<br />Optimization</p>
+                  <strong>Pix / Q4 2024</strong>
+                  <b>47%</b>
+                  <p><span class="ru">безналичных транзакций в Бразилии</span><span class="en">of non-cash transactions in Brazil</span></p>
                 </article>
               </div>
 
               <div class="premium-stats">
                 <div class="premium-stat">
-                  <b>215M</b>
-                  <span>Brazil population</span>
+                  <b>212M</b>
+                  <span><span class="ru">жителей Бразилии</span><span class="en">Brazil population</span></span>
                 </div>
                 <div class="premium-stat">
-                  <b>660M</b>
-                  <span>LATAM market</span>
+                  <b>170M</b>
+                  <span><span class="ru">пользователей Pix</span><span class="en">Pix users</span></span>
                 </div>
                 <div class="premium-stat">
-                  <b>#9</b>
-                  <span>Global economy</span>
+                  <b>58.9B</b>
+                  <span><span class="ru">мобильных платежей</span><span class="en">mobile payments</span></span>
                 </div>
               </div>
+              <p class="premium-source">World Bank · Banco Central do Brasil · 2024</p>
             </div>
           </div>
         </div>
