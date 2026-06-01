@@ -4708,28 +4708,28 @@
           index: "02 / payments",
           title: { ru: "Денежный контур для Бразилии", en: "A payments layer for Brazil" },
           copy: {
-            ru: "Подключили локальные сценарии: Woovi, Pix-ключи, webhooks, комиссии, распределение платежей, выплаты и subaccounts пользователей.",
-            en: "We integrated local flows: Woovi, Pix keys, webhooks, commissions, payment distribution, payouts, and user subaccounts."
+            ru: "Адаптировали прием чаевых и выплаты под платежные привычки Бразилии. Пользователь может быстро получить деньги, а бизнес — контролировать движение средств и комиссии.",
+            en: "We adapted tipping and payouts to Brazilian payment habits. Users can receive money quickly, while businesses can track transfers and fees."
           },
-          stack: ["Woovi", "Pix", "webhooks", "payouts", "subaccounts"]
+          stack: ["Pix", "QR payments", "payouts", "fees", "business control"]
         },
         security: {
           index: "03 / security",
-          title: { ru: "Сессии, верификация и защита", en: "Sessions, verification, and security" },
+          title: { ru: "Безопасность операций", en: "Secure transactions" },
           copy: {
-            ru: "Реализовали короткоживущие JWT-токены, серверный контроль сессий, ротацию, email-верификацию и OTP через WhatsApp-first сценарий с fallback на SMS.",
-            en: "We implemented short-lived JWT tokens, server-side session control, rotation, email verification, and OTP through a WhatsApp-first flow with SMS fallback."
+            ru: "Защитили личные кабинеты и денежные операции. Подтверждение входа и важных действий работает через привычные для локального рынка каналы связи.",
+            en: "We secured customer accounts and money transfers. Login and sensitive actions are verified through communication channels familiar to the local market."
           },
-          stack: ["JWT", "session rotation", "OTP", "WhatsApp", "SMS fallback"]
+          stack: ["secure access", "verification", "WhatsApp", "SMS", "fraud protection"]
         },
         infrastructure: {
           index: "04 / infrastructure",
-          title: { ru: "Production-ready инфраструктура", en: "Production-ready infrastructure" },
+          title: { ru: "Готовность к запуску и росту", en: "Ready to launch and scale" },
           copy: {
-            ru: "Подготовили контур для запуска и масштабирования: Phoenix umbrella, React mobile SPA, Oban, AWS, Terraform, Ansible, Helm, Docker, метрики и логирование.",
-            en: "We prepared the platform for launch and scaling: Phoenix umbrella, React mobile SPA, Oban, AWS, Terraform, Ansible, Helm, Docker, metrics, and logging."
+            ru: "Подготовили продукт к реальному запуску: стабильная работа, контроль ключевых показателей, быстрые обновления и технический запас для роста нагрузки.",
+            en: "We prepared the product for a real launch: stable operations, clear monitoring, fast updates, and the capacity to support growth."
           },
-          stack: ["Phoenix", "React SPA", "AWS", "Terraform", "Helm", "Docker"]
+          stack: ["stable launch", "monitoring", "fast updates", "scaling", "support"]
         }
       };
 
